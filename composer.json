@@ -1,0 +1,26 @@
+{
+  "name": "magedia/dummy",
+  "description": "Magedia Dummy package",
+  "type": "magento2-module",
+  "require": {
+  },
+  "version": "1.0.0",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Magedia",
+      "email": "engineering@magedia.com",
+      "homepage": "https://www.magedia.com",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magedia\\Dummy\\": ""
+    }
+  }
+}
+
